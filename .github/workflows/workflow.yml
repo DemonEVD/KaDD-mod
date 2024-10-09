@@ -19,6 +19,6 @@ jobs:
           cd copied_project
           git add .
           git commit -m "Копирование проекта"
-          git push origin KaDD-mod-Lite
+          git push origin KaDD-mod
       - name: Удаление временной папки
         run: rm -rf ../copied_project
